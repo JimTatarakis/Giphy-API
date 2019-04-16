@@ -1,0 +1,9 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/08/21/11/wood-1963988_960_720.jpg);
+}
+.nav-wrapper{
+    background: rgba(235, 243, 236, 0.6) !important;
+}
+.row-section{
+    background: rgba(235, 243, 236, 0.6) !important;
+}
