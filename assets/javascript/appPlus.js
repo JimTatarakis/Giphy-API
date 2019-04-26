@@ -17,7 +17,7 @@ document.querySelector('#search').addEventListener('keypress', function (e) {
 const getGifs = (searchTerm) => {
     gifArea.innerHTML= "";
     console.log(searchTerm);
-    let queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&limit=10&api_key=69Mht6ewKKZaEMo38HgDTlciavTxPRc8"
+    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&limit=10&api_key=69Mht6ewKKZaEMo38HgDTlciavTxPRc8"
     console.log(queryURL);
     fetch(queryURL)
         .then(function (response) {
